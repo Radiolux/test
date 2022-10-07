@@ -1,0 +1,101 @@
+html
+{
+    font: 20px Arial;
+    margin: 0;
+}
+body
+{
+    margin: 0;
+}
+#mask
+{
+    background-color: #000000; /* Чёрный фон */
+    height: 100%; /* Высота максимальна */
+    left: 0; /* Нулевой отступ слева */
+    opacity: 0.50; /* Степень прозрачности */
+    position: fixed; /* Фиксированное положение */
+    top: 0; /* Нулевой отступ сверху */
+    width: 100%; /* Ширина максимальна */
+    z-index: 1000; /* Заведомо быть НАД другими элементами */
+    display:none;
+}
+#tocart
+{
+    opacity: 1;
+    position: fixed;
+    top: 150px;
+    left: 50%;
+    margin-left:-250px;
+    width: 500px;
+    min-height: 315px;
+    z-index:1001;
+    display:none;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 12px 3px #505050;
+}
+
+.main
+{
+    display: inline-flex;
+    width: 100%;
+}
+
+.left_column
+{
+    width: 400px;
+    border-right: 2px solid grey;
+    margin: 20px 60px 20px 20px;
+}
+.left_column li
+{
+    padding: 10px 30px;
+    list-style-type: none;
+    cursor: pointer;
+}
+.left_column li:hover
+{
+    background-color: aliceblue;
+}
+
+.right_column
+{
+    width: 100%;
+}
+
+.cat-line
+{
+    margin: 20px;
+    font-size: 0.8em;
+}
+
+.cat-name
+{
+    color: red;
+    font-weight: bold;
+}
+
+.ModelProduct
+{
+    padding: 20px 20px 30px 20px;
+}
+.ModelProduct:hover
+{
+    background-color: aliceblue;
+}
+
+.selector
+{
+    text-align: right;
+    margin: 20px;
+}
+
+.btn-close
+{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    text-align: right;
+    font-size: 1.5em;
+    cursor: pointer;
+}
