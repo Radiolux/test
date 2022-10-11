@@ -1,4 +1,4 @@
-<div class="btn-close" onclick="CloseWinToCart();">X</div>
+<div class="btn-close" onclick="CloseWinToCart();">✖</div>
 <div id="prod_id_tocart" style="display: none;"></div>
 <div id="prod_name_tocart" style="padding: 65px 20px 20px 20px;"></div>
 <div id="price_tocart" style="padding: 20px;"></div>
